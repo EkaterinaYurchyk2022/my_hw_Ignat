@@ -1,0 +1,49 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    background-color: greenyellow;
+
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: black;
+    position: relative;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent black transparent;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+}
+
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #bbffbb;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: #bbffbb;
+}
