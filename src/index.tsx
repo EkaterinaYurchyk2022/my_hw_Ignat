@@ -10,11 +10,11 @@ import store from './p2-homeworks/h10/bll/store'
 // igg2
 
 ReactDOM.render(
-    <React.StrictMode>
+
         <Provider store={store}>
         <App/>
-        </Provider>
-    </React.StrictMode>,
+        </Provider>,
+
     document.getElementById("root")
 )
 

@@ -6,7 +6,7 @@ import {loadingAC} from "./bll/loadingReducer";
 
 function HW10() {
     // useSelector, useDispatch
-    const isLoading = useSelector<AppStoreType, boolean>(state => state.loading.isLoading)
+    const isLoading = useSelector<AppStoreType, boolean>(state => state.loadingReducer.isLoading)
     const dispatch = useDispatch()
 
     const setLoading = () => {

@@ -1,0 +1,21 @@
+.hw11 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rangeValue {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    color: #292946;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+.doubleRange {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

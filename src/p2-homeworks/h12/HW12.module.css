@@ -1,23 +1,28 @@
+
 .dark {
     background: dimgrey;
 }
 
-.dark-text {
-    color: aliceblue;
+.darkText {
+    color: #fffefe;
 }
 
 .red {
-    background: lightcoral;
+    background: #fc5747;
 }
 
-.red-text {
-    color: aqua;
+.redText {
+    color: #490106;
 }
 
 .some {
-    background: lightgreen;
+    background: #f4ff03;
 }
 
-.some-text {
-    color: darkslateblue;
+.someText {
+    color: #0a4903;
+}
+
+.title {
+    padding: 10px;
 }
