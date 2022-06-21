@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.buttonIsClicked {
+    left: -260px;
+}
+
+.buttonIsNotClicked {
+    left: 0;
+}
+
+.menuButton {
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    background-color: #385d8c;
+    padding: 8px;
+    font-size: 8px;
+}
+
+.menuButton:hover {
+    background-color: #61dafb;
+}
+
+.menuButton:focus {
+    left: -250px;
+}
+
+.menuItem {
+    margin: 0 10px;
+    color: #385d8c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    color: #61dafb;
+    text-shadow: 1px 1px 1px #163f8a;
+}
+
+.active {
+    color: #61dafb;
+    text-shadow: 1px 1px 1px #163f8a;
+}

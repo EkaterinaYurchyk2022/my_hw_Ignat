@@ -1,0 +1,9 @@
+.response {
+    height: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
